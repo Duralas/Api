@@ -14,7 +14,8 @@
         "symfony/yaml": "5.0.*"
     },
     "require-dev": {
-        "friendsofsymfony/rest-bundle": "3.0.*@dev"
+        "friendsofsymfony/rest-bundle": "3.0.*@dev",
+        "symfony/maker-bundle": "^1.14"
     },
     "config": {
         "preferred-install": {
