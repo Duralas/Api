@@ -108,6 +108,9 @@
     "ocramius/proxy-manager": {
         "version": "2.7.0"
     },
+    "paragonie/sodium_compat": {
+        "version": "v1.12.2"
+    },
     "php": {
         "version": "7.4"
     },

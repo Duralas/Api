@@ -1,6 +1,13 @@
 doctrine:
     dbal:
-        url: '%env(resolve:DATABASE_URL)%'
+        # Valeurs secrètes => symfony console secrets:generate-keys
+        #                  => symfony console secrets:set DATABASE_NAME
+        dbname:   '%env(DATABASE_NAME)%'
+        host:     '%env(DATABASE_HOST)%'
+        port:     '%env(DATABASE_PORT)%'
+        user:     '%env(DATABASE_USER)%'
+        password: '%env(DATABASE_SECRET)%'
+        driver:   '%env(DATABASE_DRIVER)%'
 
         # IMPORTANT: You MUST configure your server version,
         # either here or in the DATABASE_URL env var (see .env file)

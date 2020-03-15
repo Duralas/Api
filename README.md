@@ -25,7 +25,7 @@ Ce projet décrit seulement la mise à disposition des données et les potentiel
 Plusieurs fonctionnalités sont attendues afin de répondre aux différents besoins du forum RPG et notamment concernant le respect des rôles.
 
 - [ ] Schéma
-  - [ ] Carte : régions, zones, sous-zones + type (ville, compétition, faction, guilde, métier, événement)
+  - [x] Carte : régions, zones, sous-zones + type (ville, compétition, faction, guilde, métier, événement)
   - [ ] Bestiaire : créatures + type (abominations, humanoïdes, superstitieux, etc.) + localisation + butins 
   - [ ] Objets : équipements + type (épée, heaume, respirateur), restrictions, obtention (recette, capture, guilde, faction, etc.)
   - [ ] Utilisateurs
