@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -eu
+
+readonly ROOT_DIR="$(realpath "$(dirname "$(realpath "$0")")/..")"
+
+docker run --rm --interactive --tty \
+  --volume "${ROOT_DIR}":/app \
+  --user $(id -u):$(id -g) \
+  composer "${@}"

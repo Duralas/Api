@@ -1,0 +1,13 @@
+{
+    "name": "duralas/api",
+    "type": "project",
+    "description": "RestFul API for Dùralas data",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "symfony/flex": "1.17.*"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
